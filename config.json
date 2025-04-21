@@ -1,0 +1,32 @@
+{
+    "apis": [
+      {
+        "url": "https://reqbin.com/echo/get/json",
+        "method": "GET",
+        "headers": {
+            "Accept-Encoding": "deflate, gzip",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",
+            "Host": "reqbin.com",
+            "Accept": "application/json"
+        },
+        "data": null
+      },
+      {
+        "url": "https://reqbin.com/echo/post/json",
+        "method": "POST",
+        "headers": {
+            "Accept-Encoding": "deflate, gzip",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",
+            "Accept": "application/json",
+            "Content-Type": "application/json"
+        },
+        "data": {
+                "Id": 78912,
+                "Customer": "Jason Sweet",
+                "Quantity": 1,
+                "Price": 18.00
+        }
+    }    
+    ],
+    "monitoring_interval": 60
+  }  
